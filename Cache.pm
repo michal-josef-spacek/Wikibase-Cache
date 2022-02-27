@@ -7,6 +7,8 @@ use Class::Utils qw(set_params);
 use English;
 use Error::Pure qw(err);
 
+our $VERSION = 0.01;
+
 sub new {
 	my ($class, @params) = @_;
 
