@@ -5,7 +5,9 @@ jazyku, aby se to dalo pouzivat. Cache jenom pro vybrane veci.
 2. Reportovani neprirazenych labelu a description.
 3. Moznost upgrade cache skrz HEAD, check datumu a pripadny update.
 4. Wikibase::Cache::Property ? (removed in repository)
-5.
+5. Doc
+6. Tests.
+7.
 
 Applied
 =======
