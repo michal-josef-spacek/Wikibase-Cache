@@ -15,19 +15,11 @@ sub new {
 	# Create object.
 	my $self = bless {}, $class;
 
-	# API object.
-	$self->{'wikibase_api'} = undef;
 	$self->{'backend'} = 'Basic';
 
 	# Process parameters.
 	set_params($self, @params);
 
-	if (! defined $self->{'wikibase_api'}) {
-		err "Parameter 'wikibase_api' is required.";
-	}
-	if (! $self->{'wikibase_api'}->isa('Wikibase::API')) {
-		err "Parameter 'wikibase_api' must be a 'Wikibase::API' ".
-			'object.';
 	# Load backend module.
 	my $backend_module = 'Wikibase::Cache::Backend::'.$self->{'backend'};
 	eval "require $backend_module;";
