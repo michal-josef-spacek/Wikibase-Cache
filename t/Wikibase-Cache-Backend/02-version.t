@@ -6,4 +6,4 @@ use Test::NoWarnings;
 use Wikibase::Cache::Backend;
 
 # Test.
-is($Wikibase::Cache::Backend::VERSION, 0.01, 'Version.');
+is($Wikibase::Cache::Backend::VERSION, 0.02, 'Version.');
