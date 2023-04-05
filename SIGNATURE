@@ -1,0 +1,59 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.87.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: RIPEMD160
+
+SHA256 30978c375523ef4adcc2a2a6a0c67dc8b125b7bc0df38287cacf5bc339d809e5 Cache.pm
+SHA256 797fa2b7c939d23d40bc38e04fbb72d1fb29cdb42a2900305349a0d77e909971 Cache/Backend.pm
+SHA256 8509177a9cd547b1eea429b8c1c163bebf81ec0455499711fe71145818948e0e Changes
+SHA256 74ebf9b47f1d6aa16ebf0624b2f21d88e031a484aaf242ff7ffc44f3c9dfd92e LICENSE
+SHA256 aa4b47263e527eee84404c0f448545e5b785d0262ccd07299e9cf26086e02ecd MANIFEST
+SHA256 44445d6d9f0b6fa37487a9bc7e332a6261e9568ab8ee8bfc1838630c75c934f5 META.yml
+SHA256 123349c30a5aea2e1f91ccfccb24c4c5386a0ec13b4020b61d0bc9359459a185 Makefile.PL
+SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 README
+SHA256 67d139199c03b8bf8447a5a62f0d0b6dc1bd5bf6dbe04de6d21998c577823ed6 inc/Module/Install.pm
+SHA256 8bd506c33fb78f10f6451413e931ca23541fcc4eebe05fcb7c7c9577341223c4 inc/Module/Install/AuthorRequires.pm
+SHA256 1b5430a46a35142ef8914d8c745196fca825defc9dfa7e389299bf294613825e inc/Module/Install/AuthorTests.pm
+SHA256 6ebcc53a161dd5dc0aae69e4704575f2b00181901d768a82e26722a309cfdbe4 inc/Module/Install/Base.pm
+SHA256 d3f8c839d03fd21c197d05362dbb277cd7cadb15da6390d124b61e851f15146e inc/Module/Install/Can.pm
+SHA256 e9e72e18921c10c87bc4ea4c20af83e52015b9f5775d00ac64073042403717ca inc/Module/Install/Fetch.pm
+SHA256 a7a681bf2c9eee58a372cb642ffe42b0301d1200432ba8de9f7791cd1ecc9827 inc/Module/Install/Makefile.pm
+SHA256 aa887fa65a5eb6bbd1805706ce298b3f3cd55b353ecfd37aa7d35ae419331a49 inc/Module/Install/Metadata.pm
+SHA256 53825bc78e4c910b888160bc148c8bc211be58e02b99c8edcbf4854f95faa049 inc/Module/Install/ReadmeFromPod.pm
+SHA256 26b166ff62aacdb55317d1659f160aa4935097eea9810ea980e6d747206b5dc0 inc/Module/Install/Win32.pm
+SHA256 5f73a6851a91ea44e65b924f918743ad6e860620ad7a38a39d0295e0c5652a9f inc/Module/Install/WriteAll.pm
+SHA256 f774294117930b00abb33944c378e369d9f8c01c0200b661e5c144b41d9271e3 t/Wikibase-Cache-Backend/01-use.t
+SHA256 42d22009d09d3ce2164e22c1617935ecc22ca8d4137bbbbe15a14eab04996509 t/Wikibase-Cache-Backend/02-version.t
+SHA256 e3409a4c212d7deaee34df67c91e2609c41ba492375887379119a13c46e69dee t/Wikibase-Cache/01-use.t
+SHA256 ce054e3b908c45ecdc73299eaafcbfd0303ad5c47457fef14975415f44809a24 t/Wikibase-Cache/02-version.t
+SHA256 f23d372400b650b49b22b81e59bcd373a1f5b27946312bc82de5a9e392d85f6f xt/Wikibase-Cache-Backend/01-pod_coverage.t
+SHA256 a5f6faa572f75a6b4b2818598a8eccd6db51ac4705a6787a1e1d118fc8e9fccb xt/Wikibase-Cache-Backend/02-pod.t
+SHA256 061468267129d1545a1895f6a0d80e7e54ac21e0655c6a089ba3610e41cf3835 xt/Wikibase-Cache/01-pod_coverage.t
+SHA256 c69c9b7c7d0592f09ceb6c567dae6c83f0aeda0a172b636a801c1dc0881fa0a7 xt/Wikibase-Cache/02-pod.t
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBAwAdFiEEbEiOwSagsghKcON6ojV9Rpe/B8sFAmQt54YACgkQojV9Rpe/
+B8vfkA//ac5PyDVF8CRQOEwT+I9LIDhb6GJAd7KZFHJWzWdfeDOS1OiQwOMfCSe/
+OQPiEyVCVQ8mdFxhZ8GWQFo961d6L54Tky/y3WBneAtv2eOy8j9uGFi1p7LH1GLc
+mRDoi1YoTHVV9ZywRF/ZdBDGr57sZm1T8wzrrolMUmYgtL39aNoEV7nEr0xORVMi
+Can9VeNZgqAEOjqRx6fEiMKcOTU3+6bS4skEvlIyO31qY5DEbID+lHh7i7qnFb7T
+Kr9LhduJRTxMQkuwAROvKuiXv1/bMHt/V71LRej6rgvge0U07bK1IHr6CwxL2Zr6
+1jpW3RQY3dMPtr4AYAKvAMMawoCZ0rAT+8hipW0gYs0QD6cLuLmELEW/AKv1RjSh
+uEBWZDx068nYJUJbu8KsPKN1Cx5v1x6i2CBjARU7fjdgCI1ZJKTOYBgha5oOZJeg
+o+Q8gXvhJ1QcGcVaZ8Fy30ou1EPYLX/9CK1FYAO84kGirmTf+dRSJacq2TumI+HY
+JYZLqptkzl+P2gjyHh/XNrFJULylrWEGOl4MhG9DDrdrDy6JQDsiWFG/RkNqWUkH
+cPa1Y8Ghqx9TzNwgCORZzaq+2GdbTTJjCnoA8sEZhXcJcJtpi9fn3W1GcfbP7yMx
+3PCOmrZS+4gxL7R5szRvYftkdO0BHI6oOACKKL/0DNgWrJCqWOI=
+=0/fU
+-----END PGP SIGNATURE-----
