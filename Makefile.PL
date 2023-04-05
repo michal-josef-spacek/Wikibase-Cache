@@ -23,7 +23,6 @@ requires 'Error::Pure' => 0.15;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Wikibase-Cache/issues',
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Wikibase-Cache';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Wikibase-Cache';
-test_requires 'English' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
