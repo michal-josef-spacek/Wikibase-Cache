@@ -18,6 +18,7 @@ meta-spec:
 name: Wikibase-Cache
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt

@@ -1,6 +1,8 @@
 Cache.pm
 Cache/Backend.pm
 Changes
+examples/get_cached_value.pl
+examples/save_cached_value.pl
 inc/Module/Install.pm
 inc/Module/Install/AuthorRequires.pm
 inc/Module/Install/AuthorTests.pm
