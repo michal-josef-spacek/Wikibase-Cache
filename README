@@ -44,6 +44,7 @@ ERRORS
      new():
              From Class::Utils::set_params():
                      Unknown parameter '%s'.
+             Backend must inherit 'Wikibase::Cache::Backend' abstract class.
              Cannot load module '%s'.
                      Error: %s
 

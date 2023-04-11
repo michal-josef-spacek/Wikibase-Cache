@@ -15,6 +15,7 @@ sub new {
 	# Create object.
 	my $self = bless {}, $class;
 
+	# Wikibase::Cache::Backend backend.
 	$self->{'backend'} = 'Basic';
 
 	# Process parameters.
@@ -28,6 +29,11 @@ sub new {
 			'Error', $EVAL_ERROR;
 	}
 	$self->{'_backend'} = $backend_module->new;
+
+	# Check for inheritance.
+	if (! $self->{'_backend'}->isa('Wikibase::Cache::Backend')) {
+		err "Backend must inherit 'Wikibase::Cache::Backend' abstract class.";
+	}
 
 	return $self;
 }
@@ -111,9 +117,9 @@ Returns backend return value(s).
  new():
          From Class::Utils::set_params():
                  Unknown parameter '%s'.
+         Backend must inherit 'Wikibase::Cache::Backend' abstract class.
          Cannot load module '%s'.
                  Error: %s
-
 
 =head1 EXAMPLE1
 

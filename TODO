@@ -7,8 +7,9 @@ jazyku, aby se to dalo pouzivat. Cache jenom pro vybrane veci.
 4. Wikibase::Cache::Property ? (removed in repository)
 5. Doc
 6. Tests.
-7. Add check for right backend class.
 8.
 
 Applied
 =======
+7. Add check for right backend class.
+OK [20230411] skim

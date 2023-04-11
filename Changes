@@ -1,5 +1,6 @@
 0.02
  - Add doc for Wikibase::Cache.
+ - Add error check for right Wikibase::Cache::Backend class.
 
 0.01 2023-04-05T23:26:17+02:00
  - First version.
