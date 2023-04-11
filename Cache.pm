@@ -7,7 +7,7 @@ use Class::Utils qw(set_params);
 use English;
 use Error::Pure qw(err);
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 sub new {
 	my ($class, @params) = @_;
@@ -215,6 +215,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.02
+0.03
 
 =cut

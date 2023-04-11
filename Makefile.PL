@@ -34,7 +34,7 @@ test_requires 'Test::NoWarnings' => 0;
 # Default cache object.
 test_requires 'Wikibase::Cache::Backend::Basic' => 0;
 tests_recursive;
-version '0.02';
+version '0.03';
 
 # Run.
 WriteAll();

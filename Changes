@@ -1,3 +1,5 @@
+0.03
+
 0.02 2023-04-11T23:06:27+02:00
  - Add doc for Wikibase::Cache.
  - Add error check for right Wikibase::Cache::Backend class.
