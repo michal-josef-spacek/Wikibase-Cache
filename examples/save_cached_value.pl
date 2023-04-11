@@ -21,4 +21,4 @@ my $translated_qid = $obj->get('label', 'Q42');
 print $translated_qid."\n";
 
 # Output:
-# Douglas Adams
+# #Error [../Wikibase/Cache/Backend/Basic.pm:60] Wikibase::Cache::Backend::Basic doesn't implement save() method.
