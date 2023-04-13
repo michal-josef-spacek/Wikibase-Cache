@@ -1,5 +1,4 @@
 Cache.pm
-Cache/Backend.pm
 Changes
 examples/get_cached_value.pl
 examples/save_cached_value.pl
@@ -22,12 +21,8 @@ README
 SIGNATURE
 t/lib/Wikibase/Cache/Backend/Bad2.pm
 t/lib/Wikibase/Cache/Backend/Foo.pm
-t/Wikibase-Cache-Backend/01-use.t
-t/Wikibase-Cache-Backend/02-version.t
 t/Wikibase-Cache/01-use.t
 t/Wikibase-Cache/02-version.t
 t/Wikibase-Cache/03-new.t
-xt/Wikibase-Cache-Backend/01-pod_coverage.t
-xt/Wikibase-Cache-Backend/02-pod.t
 xt/Wikibase-Cache/01-pod_coverage.t
 xt/Wikibase-Cache/02-pod.t
