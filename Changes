@@ -1,4 +1,4 @@
-0.03
+0.03 2023-04-13T09:20:16+02:00
  - Move Wikibase::Cache::Backend to separate distribution.
  - Update example files.
 
